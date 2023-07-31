@@ -1,7 +1,7 @@
 from datetime import datetime as dt
 from datetime import timedelta
 
-def fetch_dates(start_date, total_days):
+def fetchDates(start_date, total_days):
     total_dates = []
     for day in range(1, total_days+1):
         date = dt.strptime(start_date, '%d-%m-%Y') + timedelta(days=day)
