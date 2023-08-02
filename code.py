@@ -10,5 +10,5 @@ def fetchDates(start_date, total_days):
 
 date = input("Enter the starting date: ")
 total_days = int(input("Enter the days to be added: "))
-total_dates = fetch_dates(date, total_days)
+total_dates = fetchDates(date, total_days)
 print(total_dates);
